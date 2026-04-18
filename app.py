@@ -8,7 +8,7 @@ def Home():
     return "Hello Flask!"
 
 
-if (__name__ == "__main__"):
+if __name__ == "__main__":
     debug = app.config["DEBUG"]
     port = app.config["PORT"]
 
